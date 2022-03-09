@@ -12,6 +12,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "rescript": "*"
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "await-to-js": "^3.0.0",
+    "ramda": "^0.28.0",
+    "rescript": "*",
+    "taskwarrior-lib": "^0.4.3",
+    "todoist": "^0.5.1"
   }
 }
