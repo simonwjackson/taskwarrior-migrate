@@ -1,21 +1,18 @@
 {
   "name": "rescript-project-template",
   "version": "0.0.1",
-  "scripts": {
-    "build": "rescript",
-    "clean": "rescript clean -with-deps",
-    "start": "rescript build -w"
-  },
   "keywords": [
     "rescript"
   ],
   "author": "",
   "license": "MIT",
+  "bin": {
+    "taskwrrior-migrate": "./bin/taskwrrior-migrate"
+  },
   "dependencies": {
     "@ryyppy/rescript-promise": "^2.1.0",
     "await-to-js": "^3.0.0",
     "ramda": "^0.28.0",
-    "rescript": "*",
     "taskwarrior-lib": "^0.4.3",
     "todoist": "^0.5.1"
   }
