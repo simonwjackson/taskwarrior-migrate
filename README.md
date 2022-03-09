@@ -1,21 +1,12 @@
-# ReScript Project Template
+# Taskwarrior Migrate
 
-The only official ReScript starter template.
+Migrate tasks from other services into taskwarrior.
+Great for using services as a catchall inbox.
 
-## Installation
-
-```sh
-npm install
-```
-
-## Build
-
-- Build: `npm run build`
-- Clean: `npm run clean`
-- Build & watch: `npm run start`
+> Note: Only todoist is supported at the moment
 
 ## Run
 
 ```sh
-node src/Demo.bs.js
+TODOIST_API_KEY=<YOUR_KEY> ./bin/taskwrrior-migrate
 ```
