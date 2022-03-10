@@ -1,19 +1,20 @@
 {
-  "name": "rescript-project-template",
+  "name": "taskwarrior-migrate",
   "version": "0.0.1",
   "keywords": [
-    "rescript"
+    "taskwarrior",
+    "todoist"
   ],
-  "author": "",
+  "author": "Simon W. Jackson",
   "license": "MIT",
   "bin": {
-    "taskwrrior-migrate": "./bin/taskwrrior-migrate"
+    "taskwrrior-migrate": "./bin/taskwarrior-migrate"
   },
   "dependencies": {
-    "@ryyppy/rescript-promise": "^2.1.0",
     "await-to-js": "^3.0.0",
     "ramda": "^0.28.0",
     "taskwarrior-lib": "^0.4.3",
     "todoist": "^0.5.1"
-  }
+  },
+  "devDependencies": {}
 }
