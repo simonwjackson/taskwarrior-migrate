@@ -2,6 +2,11 @@ const Todoist = require("todoist").v8;
 const { bind, pipe, pick, map } = require("ramda");
 
 module.exports = (key = process.env.TODOIST_API_KEY) => {
+  if (key === undefined) {
+    console.error("TODOIST_API_KEY env missing");
+    process.exit();
+  }
+
   const api = Todoist(key);
 
   const item_delete = bind(api.items.delete, api);

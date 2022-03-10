@@ -7,8 +7,9 @@
   ],
   "author": "Simon W. Jackson",
   "license": "MIT",
+  "main": "src/index.js",
   "bin": {
-    "taskwrrior-migrate": "./bin/taskwarrior-migrate"
+    "taskwrrior-migrate": "./src/index.js"
   },
   "dependencies": {
     "await-to-js": "^3.0.0",
